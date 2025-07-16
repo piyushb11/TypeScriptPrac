@@ -19,4 +19,9 @@ class loginPage extends UserLogin {
 let log = new loginPage("Joe", "abc", 3);
 log.getValue();
 console.log(log.id);
+// generics
+function identifier(val) {
+    return val;
+}
+console.log(identifier(4));
 //# sourceMappingURL=Abstract.js.map
