@@ -1,11 +1,16 @@
 "use strict";
 class UserLogin {
+    username;
+    passKey;
     constructor(username, passKey) {
         this.username = username;
         this.passKey = passKey;
     }
 }
 class loginPage extends UserLogin {
+    username;
+    passKey;
+    id;
     constructor(username, passKey, id) {
         super(username, passKey);
         this.username = username;

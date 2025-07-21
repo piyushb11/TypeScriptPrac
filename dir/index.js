@@ -5,7 +5,7 @@
 //     console.log("age is less ")
 //     age+=10
 // }
-let sales = 109208930;
+let sales = 109_208_930;
 let course = "Joe";
 let is_published = true;
 let level;

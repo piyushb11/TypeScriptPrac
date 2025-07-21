@@ -1,5 +1,8 @@
 "use strict";
 class Instagram {
+    cameraMode;
+    settings;
+    lens;
     constructor(cameraMode, settings, lens) {
         this.cameraMode = cameraMode;
         this.settings = settings;
