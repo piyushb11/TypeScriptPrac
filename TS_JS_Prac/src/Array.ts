@@ -56,3 +56,8 @@ const words: string[] = new Array("Alex", "Alixec", "Bob", "Gym", "MOTOR", "Anna
 const greater: string[] = words.filter((currentvalue: string) => currentvalue.length == 3)
 console.log(greater);
 
+let spread1 = [1, 2, 3, 4, 5, 6]
+let spread2 = [10, 20, 30, 40, 50, 60]
+
+let spread3 = [...spread1, ...spread2]
+console.log(spread3);
